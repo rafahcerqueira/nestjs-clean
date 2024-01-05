@@ -36,8 +36,8 @@ Este projeto é uma aplicação desenvolvida em Nest.js utilizando TypeScript. O
 
 **1. Pré-requisitos:**
 
-- Instale o Node.js: Node.js
-- Instale o Docker: Docker
+- Instale o Node.js
+- Instale o Docker
 
 **2. Clonar o Repositório:**
 
@@ -55,6 +55,28 @@ pnpm install
 **4. Configurar o Ambiente:**
 
 - **Renomeie o arquivo .env.example para .env e configure as variáveis de ambiente conforme necessário.**
+
+- **Gere o token JWT RS256 através de um terminal Ubuntu (utilizei o wsl2):**
+
+  - Gerando private key:
+
+    ```bash
+        openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048
+    ```
+
+  - Gerando public key:
+
+    ```bash
+        openssl rsa -pubout -in private_key.pem -out public_key.pem
+    ```
+
+  - Converta para base64 pois haverá várias quebras de linhas:
+    ```bash
+         base64 private_key.pem > private_key-base64.txt
+    ```
+    ```bash
+         base64 public_key.pem > public_key-base64.txt
+    ```
 
 **5. Executar a Aplicação:**
 
