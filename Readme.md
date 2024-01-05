@@ -42,8 +42,8 @@ Este projeto é uma aplicação desenvolvida em Nest.js utilizando TypeScript. O
 **2. Clonar o Repositório:**
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-projeto.git
-cd nome-do-projeto
+git clone https://github.com/rafahcerqueira/nestjs-clean.git
+cd nestjs-clean
 ```
 
 **3. Instalar Dependências:**
