@@ -41,14 +41,14 @@ Este projeto é uma aplicação desenvolvida em Nest.js utilizando TypeScript. O
 
 **2. Clonar o Repositório:**
 
-```console
+```bash
 git clone https://github.com/seu-usuario/nome-do-projeto.git
 cd nome-do-projeto
 ```
 
 **3. Instalar Dependências:**
 
-```console
+```bash
 pnpm install
 ```
 
@@ -58,7 +58,7 @@ pnpm install
 
 **5. Executar a Aplicação:**
 
-```console
+```bash
 docker-compose up --build
 ```
 
