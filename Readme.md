@@ -1,4 +1,4 @@
-**<h1> NestJS Clean </h1>**
+**<h1> NestJS Clean </h1><img src="https://docs.nestjs.com/assets/logo-small.svg" alt="Logo NestJS" width="80"/>**
 
 **<h2> Descrição do Projeto </h2>**
 
