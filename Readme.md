@@ -22,6 +22,8 @@ Este projeto é uma aplicação desenvolvida em Nest.js utilizando TypeScript. O
 
 - **SWC:** Transpiler eficiente para converter código TypeScript para JavaScript.
 
+- **Jest:** Framework de teste para JavaScript e TypeScript, garantindo a qualidade e confiabilidade do código.
+
 **<h2> Funcionalidades Principais: </h2>**
 
 - **Autenticação Segura:** Implementação de autenticação JWT para garantir a segurança das informações.
